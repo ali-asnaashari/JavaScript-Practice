@@ -54,3 +54,18 @@ let age = 30;                // Number literal
 let isApproved = false;     //  Boolean literal
 let firstName = undefined;
 let selectedColor = null; // null --> clear the value of variable
+
+
+/** ---------------------------------- section5  Dynamic Typ ---------------------------------------- **/
+
+// in js unlike other programming languages
+// we dont have two kind of numbers , we dont have floating number and integer
+// all numbers are type number
+
+let name = 'ali'
+console.log(typeof name); // string
+name = 1;
+console.log(typeof name); // number
+
+let selectedColor = null;
+console.log(typeof selectedColor); // object
