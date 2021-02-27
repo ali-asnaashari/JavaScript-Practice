@@ -34,3 +34,23 @@ console.log(name1);
 const interestRate = 0.3;
 // interestRate = 1; // Error ---> can not Reassign
 console.log(interestRate);
+
+/** ---------------------------------- section4 Primitive Type -------------------------------------- **/
+
+// value of constant can not change
+/**
+ - Primitive/Value Types include:
+ - String
+ - Number
+ - Boolean
+ - undefined
+ - null
+ */
+
+/** Example **/
+
+let name = 'ali';             // String literal
+let age = 30;                // Number literal
+let isApproved = false;     //  Boolean literal
+let firstName = undefined;
+let selectedColor = null; // null --> clear the value of variable
