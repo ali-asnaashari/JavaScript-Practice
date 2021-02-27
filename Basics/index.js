@@ -26,3 +26,11 @@ console.log(name1);
  5. use camel notation
  6. are case-sensitive
  */
+
+/** ---------------------------------- section3 Constant ----------------------------------------- **/
+
+// value of constant can not change
+
+const interestRate = 0.3;
+// interestRate = 1; // Error ---> can not Reassign
+console.log(interestRate);
