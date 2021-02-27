@@ -61,6 +61,7 @@ do {
 
 /** Section6 - For-in */
 
+// we use for-in loop to iterate over the properties of an object
 const person = {
     name: 'ALi',
     age: 30
@@ -71,6 +72,13 @@ for (let key in person)
 const colors = ['red','green','blue'];
 for (let index in colors)
     console.log(index,colors[index]);
+
+/** section7 - For-of */
+
+// we use for-of loop to iterate over the elements or items in the array
+const things = ['spoon','fork','knife']
+for (let thing of things)
+    console.log(thing);
 
 
 
