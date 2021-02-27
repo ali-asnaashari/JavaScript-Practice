@@ -19,3 +19,24 @@ const circle = {
 };
 
 circle.draw();
+
+/** section2 - Factory Functions **/
+
+// Factory Functions ---> to create simply object
+
+// In modern JS, if our key and value are the same ,
+// we can make our code shorter by removing value
+// and simply adding the key
+
+function createCircle(radius){
+    return {
+        // radius <-----> radius = radius
+        radius,
+        draw(){
+            console.log('draw');
+        }
+    };
+}
+const cricle1 = createCircle(1);
+console.log(cricle1);
+console.log(cricle1.draw());
