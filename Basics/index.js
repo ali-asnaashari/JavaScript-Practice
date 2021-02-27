@@ -125,3 +125,25 @@ console.log(typeof selectedColor);
 // length Property
 console.log(selectedColor)
 console.log(selectedColor.length);
+
+/** ---------------------------------- section8 Function -------------------------------------------- **/
+
+// EXP 1
+function greet(){
+    console.log('hello world');
+}
+greet();
+
+// EXP 2 ---> passing parameter
+function greetV1(name){
+    console.log('hello ' + name);
+}
+greetV1('ali');
+
+// EXP 3 ---> passing multiple parameter
+function greetV2(name,lastName){
+    console.log('hello ' + name + ' ' + lastName);
+}
+
+greetV2('john','smith');
+greetV2('ali'); // second value is undefined
