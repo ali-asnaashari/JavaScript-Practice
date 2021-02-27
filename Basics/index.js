@@ -103,3 +103,25 @@ console.log(person.name);
 let selection = 'name';
 person[selection] = 'ahmad';
 console.log(person.name);
+
+
+/** ---------------------------------- section7 Array -------------------------------------------- **/
+
+// Array is Data Structure that we use to represent a list of items.
+
+let selectedColor = ['red','blue'];
+console.log(selectedColor);
+// Access to the Element
+console.log(selectedColor[0]);
+
+// Element and size of array is Dynamic:
+selectedColor[2] = 'green';
+selectedColor[3] = 1;
+console.log(selectedColor[2]);
+
+// Array is an Object in js
+console.log(typeof selectedColor);
+
+// length Property
+console.log(selectedColor)
+console.log(selectedColor.length);
