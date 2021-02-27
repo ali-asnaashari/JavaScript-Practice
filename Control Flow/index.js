@@ -58,3 +58,20 @@ do {
     j++;
 
 }while(j <= 5);
+
+/** Section6 - For-in */
+
+const person = {
+    name: 'ALi',
+    age: 30
+};
+for (let key in person)
+    console.log(key,person[key]);
+
+const colors = ['red','green','blue'];
+for (let index in colors)
+    console.log(index,colors[index]);
+
+
+
+
