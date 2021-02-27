@@ -80,6 +80,23 @@ const things = ['spoon','fork','knife']
 for (let thing of things)
     console.log(thing);
 
+/** section8 - Break/Continue */
 
+// Break
+let k =0;
+while ( k <= 10){
+    if (k === 5) break;
+    console.log(k);
+    k++;
+}
 
-
+// Continue
+let l =0;
+while ( l <= 10){
+    if (l % 2 === 0){
+        l++;
+        continue;
+    }
+    console.log(l);
+    l++;
+}
