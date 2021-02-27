@@ -26,3 +26,18 @@ switch (role){
     default:
         console.log('Unknown User');
 }
+
+/** Section3 - For */
+
+/**
+ * For
+ * While
+ * Do -- while
+ * For -- in
+ * For -- of
+
+ */
+
+for (let i = 1 ; i<=5 ; i++){
+    if (i % 2 !== 0) console.log(i)
+}
