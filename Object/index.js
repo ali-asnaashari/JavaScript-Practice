@@ -61,6 +61,29 @@ function Circle(radius){
 
 const circle1 = new Circle(1);
 
+/** section4 - 4- Dynamic Nature of Objects **/
+
+// object are Dynamic Which means once you create them
+// you can always add new properties or methods,
+// or removing Existing Ones
+
+// we can use the delete operator, to delete a member from a square object. That member can be a property or method.
+
+// what kind of constant is that? Well, when we use constant here, that means
+// we cannot reassign this constant, Like square = {}
+
+const square = {
+    radius: 1
+};
+
+square.color = 'blue';
+square.draw = function (){}
+
+delete square.color;
+delete square.draw();
+
+console.log(square);
+
 
 
 
