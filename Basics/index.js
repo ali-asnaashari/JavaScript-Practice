@@ -69,3 +69,37 @@ console.log(typeof name); // number
 
 let selectedColor = null;
 console.log(typeof selectedColor); // object
+
+/** ---------------------------------- section6 Reference Type And Object ------------------------------------- **/
+
+/**
+ * Reference Type include:
+ * Object
+ * Array
+ * Function
+ */
+
+/**
+ let name = 'ali';
+ let age = 30;
+ **/
+
+// instead of above can use:
+let person = {
+    name: 'ali',
+    age: 30
+};
+
+console.log(person);
+console.log(person.name);
+console.log(person.age);
+
+person.name = 'john';
+console.log(person.name);
+
+person['name'] = 'sina';
+console.log(person.name);
+
+let selection = 'name';
+person[selection] = 'ahmad';
+console.log(person.name);
