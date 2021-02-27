@@ -147,3 +147,18 @@ function greetV2(name,lastName){
 
 greetV2('john','smith');
 greetV2('ali'); // second value is undefined
+
+
+/** ---------------------------------- section9 Types of Functions -------------------------------------------- **/
+
+// Performing a task
+function greetV3(){
+    console.log('hello world');
+}
+greetV3();
+
+// Calculation a value
+function square(number){
+    return number*number;
+}
+console.log(square(2));
