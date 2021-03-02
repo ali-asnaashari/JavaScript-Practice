@@ -93,3 +93,55 @@ console.log(square);
 console.log(circle1.constructor);
 // Circle2 define in section3 - Constructor Functions
 console.log(circle2.constructor);
+
+/** section6 - Functions Are Objects */
+
+// In JS , Functions Are Objects
+
+function CircleV2(radius){
+    this.radius = radius
+    this.draw = function (){
+        console.log('DrawV2')
+    }
+}
+
+console.log(CircleV2.name)
+
+// Return Number of Argument
+console.log(CircleV2.length)
+
+// Constructor Property
+console.log(CircleV2.constructor)
+
+// call Method
+// {} target of this
+console.log(CircleV2.call({},1)) // const another = new CircleV2(1);
+
+// apply Method
+// Exactly Like call Method but instead of passing all the arguments Explicitly We Pass them in array.
+console.log(CircleV2.apply({},[1,2,3]))
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
