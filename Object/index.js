@@ -39,9 +39,9 @@ function createCircle(radius){
         }
     };
 }
-const cricle1 = createCircle(1);
-console.log(cricle1);
-console.log(cricle1.draw());
+const circle1 = createCircle(1);
+console.log(circle1);
+console.log(circle1.draw());
 
 /** section3 - Constructor Functions **/
 
@@ -59,9 +59,10 @@ function Circle(radius){
     return this;
 }
 
-const circle1 = new Circle(1);
+const circle2 = new Circle(1);
 
-/** section4 - 4- Dynamic Nature of Objects **/
+
+/** section4 - Dynamic Nature of Objects **/
 
 // object are Dynamic Which means once you create them
 // you can always add new properties or methods,
@@ -84,11 +85,11 @@ delete square.draw();
 
 console.log(square);
 
+/** section5 - Constructor Property */
 
+// every object has a constructor property and that references a function that was used to create that object.
 
-
-
-
-
-
-
+// Circle1 define in section2 - Factory Functions
+console.log(circle1.constructor);
+// Circle2 define in section3 - Constructor Functions
+console.log(circle2.constructor);
